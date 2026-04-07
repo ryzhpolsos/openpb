@@ -1,4 +1,6 @@
-import { ModLoader }  from './modloader/loader.js';
+import { ModLoader }  from './mod/loader.js';
 
-let loader = new ModLoader();
-await loader.init();
+window.addEventListener('load', async () => {
+    const loader = new ModLoader();
+    await loader.init();
+});

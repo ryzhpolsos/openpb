@@ -4,8 +4,8 @@
   "description": "Progressbar95 clone on JavaScript",
   "main": "src/index.ts",
   "scripts": {
-    "build": "npx webpack build",
-    "serve": "npx webpack serve"
+    "build": "node scripts/createCoreModList.js && npx webpack build",
+    "serve": "node scripts/createCoreModList.js && npx webpack serve"
   },
   "repository": {
     "type": "git",

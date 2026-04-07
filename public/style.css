@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    user-select: none;
+    cursor: default;
+}
+
+.openpb-core--screen {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
