@@ -1,0 +1,30 @@
+{
+  "name": "openpb",
+  "version": "0.1.0",
+  "description": "Progressbar95 clone on JavaScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx webpack build",
+    "serve": "npx webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryzhpolsos/openpb.git"
+  },
+  "keywords": [
+    "typescript",
+    "game",
+    "progressbar95"
+  ],
+  "author": "ryzhpolsos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryzhpolsos/openpb/issues"
+  },
+  "homepage": "https://github.com/ryzhpolsos/openpb#readme",
+  "devDependencies": {
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}

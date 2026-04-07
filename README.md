@@ -1,2 +1,2 @@
 # openpb
-Progressbar95 clone on Typescript
+Progressbar95 clone on JavaScript
